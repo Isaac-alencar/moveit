@@ -1,0 +1,58 @@
+/* Reseting some global styles default in browsers */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+
+  box-sizing: border-box;
+}
+
+/* Colors Variables */
+:root {
+  --color-blue-twitter: #2aa9e0;
+  --color-blue-light: #5965E0;
+  --color-blue-dark: #4953B8;
+  --color-green: #4CD62B;
+  --color-red: #E83F5B;
+  --color-text-highligth: #B2B9FF;
+  --color-text: #666666;
+  --color-title:#2E384D;
+  --color-gray-line: #DCDDE0;
+  --color-background: #F2F3F5;
+  --color-white: #FFFFFF;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-texts);
+}
+body, input, textarea, button {
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: var(--color-text)
+}
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* For responsiveness */
+/* Fonts ajustments */
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 780px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+
+

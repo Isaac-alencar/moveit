@@ -1,0 +1,33 @@
+.experienceBar {
+  display: flex;
+  align-items: center;
+}
+
+.experienceBar span {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1rem;
+
+}
+
+.experienceBar > div {
+  flex: 1;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--color-gray-line);
+  margin: 0 1.5rem;
+  position: relative;
+
+}
+
+.experienceBar > div > div {
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--color-green);
+}
+
+.experienceBar > div span.currentExperience {
+  position: absolute;
+  font-family: 'Rajdhani', sans-serif;
+  top: 12px;
+  transform: translateX(-50%);
+}
