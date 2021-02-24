@@ -10,6 +10,8 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rajdhani:wght@600&display=swap"
             rel="stylesheet"
           />
+          <link rel="shortcut icon" href="favicon.png" type="image/png"/>
+          <title>Home | move.it</title>
         </Head>
         <body>
           <Main />
