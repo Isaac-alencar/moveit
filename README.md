@@ -5,21 +5,12 @@
 
 <div align="center">
   <img src="./.github/logo-full.svg"  alt="logo move-it" width="100%" />
-  <p style="font-size: 42px;margin: 20px 0;">move.it</p>
   <div style="display:flex; align-items: center; justify-content: center;">
     <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Isaac-alencar/moveit" style="margin: 0 10px;" />
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Isaac-alencar/moveit" style="margin: 0 10px;" />
     <img alt="GitHub" src="https://img.shields.io/github/license/Isaac-alencar/moveit" />
   </div>
 </div>
-
-## Índice
-- [Sobre o projeto](#Sobreoprojeto)
-- [Preview](#🎨PreviewdoLayoutFinal)
-- [Check-in de aprendizado](##Umbrevecheck-indeaprendizadonoprojeto)
-- [Tecnologias](###:pencil2:TecnologiasUtilzadas)
-- [Como começar](###:boom:Comorodaroprojeto)
-
 
 # Sobre o Projeto
 <p style="font-family:'Inter', sans-serif; font-size: 14px;width: 600px">
@@ -33,17 +24,9 @@
 # 🎨 Preview do Layout Final
 <div align="center">
   <img src="./.github/moveit-final-layout.png" alt="Layout final">
-
-
-<div 
-  style="display: flex; align-items: center; justify-content: space-around; width: 250px; height: 35px; background-color: #4953B8; border-radius: 5px; padding: 5px; margin: 20px 0;"
->
-  <img src="./.001-world-wide-web.svg" alt="www by flaticons" />
-  <strong style="font-family: 'Inter', sans-serif">
-    <a href="" style="color: inherit; text-decoration: none;">
-      Veja o app funcionando.
-    </a>
-  </strong>
+  <a href="">
+    <img src="./.github/button.svg" alt="Veja funcionar" />
+  </a>
 </div>
 
 </div>
